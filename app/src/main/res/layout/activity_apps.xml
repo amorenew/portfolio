@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".AppsActivity"
+    android:id="@+id/overviewLayout"
+    android:background="@color/blue_light">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Nanodegree Apps!"
+        android:id="@+id/tvHeaderTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textColor="#000" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvHeaderTitle"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/spotify"
+            android:id="@+id/btnSpotify"
+            android:background="@color/orange"
+            android:layout_marginBottom="20dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/scores"
+            android:id="@+id/btnScores"
+            android:background="@color/orange"
+            android:layout_marginBottom="20dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/library_app"
+            android:id="@+id/btnLibrary"
+            android:background="@color/orange"
+            android:layout_marginBottom="20dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/build_it"
+            android:id="@+id/btnBuildIt"
+            android:background="@color/orange"
+            android:layout_marginBottom="20dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/xyz_reader"
+            android:id="@+id/btnXYZReader"
+            android:background="@color/orange"
+            android:layout_marginBottom="20dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/capstone"
+            android:id="@+id/btnCapstone"
+            android:background="@color/magnet"
+            android:layout_marginBottom="20dp"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</RelativeLayout>
