@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--activity apps-->
+    <style name="HeaderTitle">
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="AppButton">
+        <item name="android:layout_width">450dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_marginBottom">80dp</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+</resources>

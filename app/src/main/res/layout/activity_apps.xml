@@ -18,8 +18,8 @@
         android:id="@+id/tvHeaderTitle"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textSize="25sp"
-        android:textColor="#000" />
+        android:textColor="#000"
+        style="@style/HeaderTitle" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -30,70 +30,58 @@
         android:gravity="center">
 
         <Button
-            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:text="@string/spotify"
             android:id="@+id/btnSpotify"
             android:background="@color/orange"
-            android:layout_marginBottom="20dp"
             android:textColor="#000"
-            android:textSize="20sp"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            style="@style/AppButton" />
 
         <Button
-            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:text="@string/scores"
             android:id="@+id/btnScores"
             android:background="@color/orange"
-            android:layout_marginBottom="20dp"
             android:textColor="#000"
-            android:textSize="20sp"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            style="@style/AppButton" />
 
         <Button
-            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:text="@string/library_app"
             android:id="@+id/btnLibrary"
             android:background="@color/orange"
-            android:layout_marginBottom="20dp"
             android:textColor="#000"
-            android:textSize="20sp"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            style="@style/AppButton" />
 
         <Button
-            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:text="@string/build_it"
             android:id="@+id/btnBuildIt"
             android:background="@color/orange"
-            android:layout_marginBottom="20dp"
             android:textColor="#000"
-            android:textSize="20sp"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            style="@style/AppButton" />
 
         <Button
-            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:text="@string/xyz_reader"
             android:id="@+id/btnXYZReader"
             android:background="@color/orange"
-            android:layout_marginBottom="20dp"
             android:textColor="#000"
-            android:textSize="20sp"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            style="@style/AppButton" />
 
         <Button
-            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:text="@string/capstone"
             android:id="@+id/btnCapstone"
             android:background="@color/magnet"
-            android:layout_marginBottom="20dp"
             android:textColor="#FFF"
-            android:textSize="20sp"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            style="@style/AppButton" />
 
     </LinearLayout>
 </RelativeLayout>
